@@ -1,0 +1,40 @@
+1- verificar a conexão com a internet
+    1.1 se não tiver não tem como comprar
+        1.1.1 fim do fluxo
+    1.1 caso tenha internet abrir o navegador padrão
+        1.1.1 ir para google.com  
+        1.1.2 fim do fluxo      
+3-  Procurar sites de pesquisa de preço
+    3.1 verificar qual site que me da mais resultados sobre a pesquisa que eu quero
+4 - Acessar o site de pesquisa de preço
+    4.1 verificar se os sites que eles estão gerando são seguros
+5 - Acessar o site com o menor valor
+    5.1 verificar a especificação do pc 
+    5.2 verificar o prazo de entrega
+    5.3 verificar a segurança do site
+    5.4 fazer o login do site
+6- passar o cartão
+7-finalizar a compra 
+
+
+Escreva número a
+Escreva número b
+Soma a + b = c
+
+
+aguardar o primeiro numero 
+aguardar o segundo número 
+calcular e armazenar a soma entre o primeiro número e o segundo número
+O resultado do calculo é a soma armazenada 
+
+var num1;
+var num2;
+var calculo;
+readln(" informe o primeiro número", num1);
+readln(" informe o segundo número", num2);
+calculo =num1 + num2
+write "0 o resultado do calculo é", calculo:
+
+
+tarefa fazer um programa que calcule o valor de imposto de renda baseado no salário  (7,5%)
+const aloquota +7,5%
