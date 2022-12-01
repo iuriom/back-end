@@ -1,0 +1,63 @@
+tarefa fazer um programa que calcule o valor de imposto de renda baseado no salário  (7,5%) const aloquota +7,5%
+
+1 - Descrição narrativa
+Solicitar ao usuário o valor do salário
+Calcular o valor do imposto a recolher baseado na aliquota de 7,5%
+Mostrar ao usuário o valor do imposto calculado
+
+2- pseud
+
+const aliquota = 7,5%
+var salário
+var imposto devido
+
+readln(Informe o salário:", salário);
+Imposto devido = salário * aliquota
+writeln("o valor do imposto devido é",Impsoto devido) 
+
+escrever um programa que baseado no valor do salario vai informar ao usuário a aliquota do imposto de renda
+usando como regra a tabela abaixo
+
+até 1.903,98	isento	0,00    - responder isento
+de 1.903,99 até 2.826,65	7,50%	142,80   - aliquota de IR 7,5%
+de 2.826,66 até 3.751,05	15,00%	354,80
+de 3.751,06 até 4.664,68	22,50%	636,13
+a partir de 4.664,68	27,50%	869,36
+
+Forma descritiva
+
+1- Solicitar ao usuário o valor do seu salário
+2- se o salario for menor ou igual a 1903,98 então escreva "voce é Isento"
+3- se o salario for maior que 1903,99 e menor que 2826,65, então escreva "sua aliquota é 7,5%"
+4- se o salario for maior que 2826,66 e menor que 3751,05, então escreva "sua aliquota é 15%"
+5- se o salario for maior que 3751,06 e menor que 4664,68, então escreva "sua aliquota é 22,5%"
+6- se o salario for maior que 4664,69, então "sua aliquota é 27,5%"
+
+Pseudocodigo
+
+const faixa1 = "isento"
+const faixa2 = "7,5%"
+const faixa3 = "15%"
+const faixa4 = "22,5%"
+const faixa5 = "27,5%"
+var salário
+
+readln(" informe o salário", salario);
+
+If(salario <= 1903,99)then
+    writeln(você esta isento; faixa 1)
+
+elseif(salario >= 1903,99 and <=2826,65)then
+    writeln(sua aliquota 7,5%; faixa 2)
+
+elseif(salario >= 2826,66 and <=3751,05)then
+    writeln(sua aliquota 15%; faixa 3)
+
+elseif(salario >= 3751,06 and <=4664,68)then
+    writeln(sua aliquota 22,5%; faixa 4)
+
+elseif(salario >= 4664,69)then
+    writeln(sua aliquota 27,5%; faixa 5)
+ou 
+else 
+    writeln(sua aliquota 27,5%; faixa 5)salario >= 4664,69
