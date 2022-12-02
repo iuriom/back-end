@@ -1,0 +1,95 @@
+*********Vamos escrever um programa que receba que notas (De 1 a 10), calcule e armazene a 
+média, e no final escreva aprovado caso a média seja maior ou igual a 7, e reprovado caso a média seja menor que 7.
+
+4- notas
+1 - descrição narrativa
+2 - solicitar ao usuario a nota do primeiro bimestre 
+3 - solicitar ao usuario a nota do segundo bimestre
+4 - solicitar ao usuario a nota do terceiro bimestre
+5 - solicitar ao usuario a nota do quarto bimestre
+6 - Calcular e armazenar (nota1 + nota2 + nota3 + nota4/4)
+7 - se a média >= 7 escreva aluno aprovado 
+8 - senão escreve aluno reprovado
+
+2- Pseudocódigo 
+
+Var nota 1
+Var nota 2
+Var nota 3
+Var nota 4
+var média
+
+readln("informe a nota do primeiro bimestre", nota1);
+readln("informe a nota do segundo bimestre", nota2);
+readln("informe a nota do terceiro bimestre", nota3);
+readln("informe a nota do quarto bimestre", nota4);
+
+média = (nota1+nota2+nota3+nota4)/4;
+
+if(media >=7)then
+  writeln("aluno aprovado");
+else
+  writeln("aluno reprovado");
+
+********Faça um algoritmo que receba o nome do usuário e a idade e mostre ao 
+  usuário a seguinte mensagem: Olá, seu nome é nome usuario você tem idadeusuario anos.
+
+1 - descrição narrativa
+
+1 - solicitar ao usuario o seu nome 
+2 - solicitar ao usuario a sua idade
+3 - Escrever a seguinte mensagem: 
+    Olá, seu nome é nomeusuario você tem idadeusuario anos.
+
+2- Pseudocódigo 
+
+Var idade
+Var nome 
+
+readln("informe o seu nome", nome);
+readln("informe a sua idade", idade);
+writeln ("olá, seu nome é nomeusuario você tem idadeusuario ano")
+
+*******Faça um algoritmo que vai receber a cidade de nascimento do usuario,
+e vai mostrar a seguinte mensagem: Você nasceu em [nome da cidade]
+
+1 - Descrição Narrativa
+
+1.1 - Solicitar a cidade de nascimento
+1.2 - Escrever a seguinte mensagem:
+  Você nasceu em [nome da cidade]
+  
+2- Pseudocódigo 
+
+2.1 Var Nome da cidade
+
+2.2 readln("Informa a cidade onde nasceu", nome da cidade);
+
+2.3 writeln ("Você nasceu em [nome da cidade]")
+
+3 Fluxograma 
+
+
+***** Faça um algoritmo que receba do usuario um numero qualquer,
+faça uma soma deste numero com o numero 10 e escreva o resultado com a 
+seguinte mensagem :
+Voce somou [numero entrada] mais numero 10,
+o resulado é [numerocalculado]
+
+1 - Descrição Narrativa
+Escreva o numero
+Calcula e armazenar numero+10 
+Escrever a seguinte mensagem:
+    Voce somou [numero entrada] mais numero 10,
+    o resulado é [numerocalculado]
+
+2- Pseudocódigo 
+Var número
+Var numero calculado
+Const 10
+
+readln("Escreva o numero", numero);
+calculo =numero + 10
+writeln "Voce somou [numero entrada] mais numero 10, o resulado é [numerocalculado]:"
+
+3 fluxograma
